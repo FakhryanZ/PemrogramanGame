@@ -15,14 +15,14 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.Editor.dll:
-    - Unity.XR.Oculus.Editor.OculusSettingsEditor
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
@@ -60,6 +60,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11832}
     - Class: 114
       Script: {instanceID: 12364}
+    - Class: 114
+      Script: {instanceID: 12570}
     - Class: 114
       Script: {instanceID: 13678}
     - Class: 114
